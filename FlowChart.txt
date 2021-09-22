@@ -1,0 +1,25 @@
+SingleLevel Inheritance
+       DerivedClass or subclass inherits from only one baseclass
+RemoteWebDriver
+      FireFoxDriver
+      operaDriver
+      InternetExplorerDriver
+      SafariDriver
+  Inheritance
+       FireFoxDriver extends RemoteWebDriver
+       operaDriver  extends RemoteWebDriver
+       InternetExplorerDriver extends RemoteWebDriver
+       SafariDriver extends RemoteWebDriver
+
+
+Multilevel Inheritance
+      Combination of more than one single Inheritance
+      
+ RemoteWebDriver
+     ChromiumDriver
+     chromeDriver
+     EdgeDriver
+Inheritance
+      ChromiumDriver extends RemoteWebDriver
+      ChromiumDriver extends chromiumDriver
+      EdgeDriver extends ChromiumDriver
